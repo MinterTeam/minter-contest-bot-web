@@ -1,0 +1,12 @@
+version: '3.6'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: .docker/Dockerfile
+      args:
+        APP_ENV: ${APP_ENV}
+        APP_EXPLORER_API_URL: ${APP_EXPLORER_API_URL}
+    ports:
+      -  ${EXPLORER_WEB_PORT}:80
