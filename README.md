@@ -1,6 +1,6 @@
 # contest.minter.network website
 
-This is the repository containing the code for the [store.pinpon.io](https://store.pinpon.io) website
+This is the repository containing the code for the [contest.minter.network](https://contest.minter.network) website
 
 
 ## Deployment script

@@ -1,14 +1,14 @@
 version: 1.0.0
 apiVersion: v2
-name: minter-contest
+name: minter-contest-bot
 icon: https://explorer.minter.network/img/minter-logo-circle.svg
 description: A Helm chart for Minter Contest Landing
 
 appVersion: v1.0.0
 
-home: https://github.com/MinterTeam/minter-contest-web
+home: https://github.com/MinterTeam/minter-contest-bot-web
 keywords:
-  - minter-contest-web
+  - minter-contest-bot-web
 maintainers:
   - name: shrpne
     email: shrpne@gmail.com
