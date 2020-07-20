@@ -3,20 +3,18 @@
         <section class="rewards">
             <div class="container">
                 <div class="bg">
-                    <img src="/img/header-arrow-layer.png" srcset="/img/header-arrow-layer@2x.png 2x" alt="">
-
-                    <img class="bg__bitmap-1" src="/img/bitmap-1.png" srcset="/img/bitmap-1@2x.png 2x" alt="Image Bitmap-1">
-                    <img class="bg__bitmap-2" src="/img/bitmap-2.png" srcset="/img/bitmap-2@2x.png 2x" alt="Image Bitmap-2">
-                    <img class="bg__box" src="/img/box.png" srcset="/img/box@2x.png 2x" alt="Image Box">
+                    <img class="bg__bitmap-1" src="/img/bitmap-1.png" srcset="/img/bitmap-1@2x.png 2x" alt="" role="presentation">
+                    <img class="bg__bitmap-2" src="/img/bitmap-2.png" srcset="/img/bitmap-2@2x.png 2x" alt="" role="presentation">
+                    <img class="bg__box" src="/img/box.png" srcset="/img/box@2x.png 2x" alt="" role="presentation">
                 </div>
                 <div class="rewards__content">
                     <h1 class="title-1">
-                        Get BIP Rewards <span>for</span> Simple Tasks
+                        Get BIP rewards <span>for</span> simple tasks
                     </h1>
                     <div class="rewards__content-btn">
-                        <a href="#">
+                        <a href="https://t.me/MinterContestBot" target="_blank" rel="noopener">
                             <img class="btn-icon" src="/img/icon.svg" alt="Icon Telegram">
-                            <div class="btn-start">Start Now</div>
+                            <div class="btn-start">Start now</div>
                         </a>
                     </div>
                     <div class="rewards__content-cta">
@@ -35,8 +33,8 @@
         <footer class="footer">
             <div class="container">
                 <div class="rewards__links">
-                    <a class="rewards__links-terms" href="#">Terms of Service</a>
-                    <a class="rewards__links-about" href="#">About Minter</a>
+                    <a class="rewards__link-item rewards__links-terms" href="#">Terms of service</a>
+                    <a class="rewards__link-item rewards__links-about" href="https://minter.org" target="_blank">About Minter</a>
                 </div>
             </div>
         </footer>
