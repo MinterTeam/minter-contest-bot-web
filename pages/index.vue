@@ -37,7 +37,7 @@
                         Get BIP rewards <span>for</span> simple tasks
                     </h1>
                     <div class="rewards__content-btn">
-                        <a href="https://t.me/MinterContestBot" target="_blank" rel="noopener">
+                        <a href="https://t.me/MinterContestBot?start=site" target="_blank" rel="noopener">
                             <img class="btn-icon" src="/img/icon.svg" width="28" height="23" alt="Telegram bot">
                             <div class="btn-start">Start now</div>
                         </a>
