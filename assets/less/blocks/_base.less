@@ -9,17 +9,26 @@ body {
     color: #FFFFFF;
 }
 
-.container {
+.container-large {
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 0 24px;
 
-    @media (min-width: 480px) {
+    @media(min-width: 768px) {
         padding: 0;
+        max-width: 610px;
     }
 
     @media(min-width: 1024px) {
-    width: 1024px;
-    max-width: 1024px;
+        max-width: 880px;
+    }
+}
+
+.container-footer {
+    margin: 0 auto;
+    padding: 0 24px;
+
+    @media(min-width: 1024px) {
+        max-width: 830px;
     }
 }
 

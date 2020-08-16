@@ -1,17 +1,25 @@
 .rewards {
     position: relative;
     overflow: hidden;
+    padding-bottom: 45px;
+
+    @media (min-width: 768px) {
+    padding-bottom: 195px;
+    }
+
+    @media (min-width: 1024px) {
+    padding-bottom: 45px;
+    }
 }
 
 .bg {
     position: absolute;
     margin-left: 88px;
 
-    @media (min-width: 480px) {
+    @media (min-width: 768px) {
         position: absolute;
-        margin-left: 198px;
+        margin-left: 55px;
         max-width: 980px;
-        height: 663px;
     }
 }
 
@@ -20,8 +28,9 @@
     top: 0;
     left: 0;
     transform: scale(0.7);
+    transform-origin: top;
 
-    @media (min-width: 480px) {
+    @media (min-width: 768px) {
         transform: scale(1);
     }
 }
@@ -32,7 +41,7 @@
     left: 100px;
     transform: scale(0.6);
 
-    @media (min-width: 480px) {
+    @media (min-width: 768px) {
         top: 53px;
         left: 180px;
         transform: scale(1);
@@ -42,11 +51,11 @@
 .bg__box {
     display: none;
 
-    @media (min-width: 480px) {
+    @media (min-width: 768px) {
         display: block;
         position: absolute;
-        bottom: 30px;
-        left: 363px;
+        top: 280px;
+        left: 280px;
     }
 
     @media (min-width: 1024px) {
@@ -58,15 +67,10 @@
 
 .rewards__content {
     padding-top: 100px;
-    margin-left: 50px;
-
-    margin-bottom: 25px;
     position: relative;
-    z-index: 1;
 
-    @media (min-width: 480px) {
+    @media (min-width: 768px) {
         padding-top: 168px;
-        margin-left: 144px;
     }
 }
 
@@ -78,7 +82,7 @@
     font-weight: 800;
     line-height: 1.2;
 
-    @media (min-width: 480px) {
+    @media (min-width: 768px) {
         font-size: 50px;
     }
 }
@@ -91,7 +95,7 @@
     display: flex;
     margin-bottom: 50px;
 
-    @media (min-width: 480px) {
+    @media (min-width: 768px) {
         margin-bottom: 80px;
     }
 }
@@ -106,25 +110,30 @@
     border-radius: 16px;
     box-shadow: 0px 12px 10px -10px #000000;
     transition: 0.1s;
-    &:hover, &:focus {background: tint(#0074FF, 15%);}
 
-    @media (min-width: 480px) {
+    &:hover,
+    &:focus {
+        background: tint(#0074FF, 15%);
+    }
+
+    @media (min-width: 768px) {
         padding: 18px 32px 17px 24px;
     }
 }
 
 .btn-icon {
-    margin-right: 24px; font-size: 0;
+    margin-right: 24px;
+    font-size: 0;
 }
 
 .btn-start {
     font-size: 20px;
     font-weight: 800;
-    color: #ffffff;
+    color: #fff;
     line-height: 1.16;
     text-align: center;
 
-    @media (min-width: 480px) {
+    @media (min-width: 768px) {
         font-size: 25px;
     }
 }
@@ -139,28 +148,25 @@
     font-weight: 400;
     line-height: 1.22;
 
-    @media (min-width: 480px) {
+    @media (min-width: 768px) {
         margin-bottom: 95px;
     }
 
     &::before {
-        content: "";
-        position: absolute;
-        top: 8px;
-        left: -65px;
-        width: 51px;
-        height: 37px;
-        background-image: image-set(
-            "../img/bitmap-3.png"1x,
-            "../img/bitmap-3@2x.png"2x,
-        );
-        background-size: 51px;
 
-        @media (min-width: 480px) {
+        @media (min-width: 768px) {
+            content: "";
+            position: absolute;
+            top: 8px;
+
             left: -80px;
             width: 61px;
             height: 47px;
             background-size: 61px;
+
+            background-image: image-set("../img/bitmap-3.png"1x,
+                    "../img/bitmap-3@2x.png"2x,
+                );
         }
     }
 }
@@ -171,24 +177,24 @@
     &::after {
         content: "";
         position: absolute;
-        bottom: -17px;
+        bottom: -18px;
         left: 23px;
         height: 15px;
         width: 123px;
-        background-image: image-set(
-            "../img/bitmap-4.png"1x,
-            "../img/bitmap-4@2x.png"2x,
-        );
+        background-image: image-set("../img/bitmap-4.png"1x,
+                "../img/bitmap-4@2x.png"2x,
+            );
         background-size: 123px;
     }
 }
 
 .rewards__content-price-text {
-    margin-bottom: 4px;
+    margin-bottom: 8px;
 
     font-size: 15px;
     font-weight: 700;
     line-height: 1.19;
+    letter-spacing: 0.6px;
     text-transform: uppercase;
 }
 
@@ -206,8 +212,6 @@
 }
 
 .rewards__links {
-    margin-top: 42px;
-    margin-right: 25px;
     display: flex;
     justify-content: flex-end;
 
@@ -219,11 +223,7 @@
     margin-right: 24px;
 }
 
-.rewards__links-about {
-}
-
 .rewards__link-item {
     color: #fff;
     text-decoration: underline;
-
 }
