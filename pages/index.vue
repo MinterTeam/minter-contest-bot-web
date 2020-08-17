@@ -34,7 +34,7 @@
                 </div>
                 <div class="rewards__content">
                     <h1 class="title-1">
-                        Get BIP rewards <span>for</span> simple tasks
+                        Get BIP rewards&nbsp; <span>for</span> simple tasks
                     </h1>
                     <div class="rewards__content-btn">
                         <a href="https://t.me/MinterContestBot?start=site" target="_blank" rel="noopener">
