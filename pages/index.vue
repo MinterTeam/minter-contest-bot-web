@@ -26,7 +26,7 @@
 <template>
     <div>
         <section class="rewards">
-            <div class="container">
+            <div class="container-large">
                 <div class="bg">
                     <img class="bg__bitmap-1" src="/img/bitmap-1.png" srcset="/img/bitmap-1@2x.png 2x" alt="" role="presentation">
                     <img class="bg__bitmap-2" src="/img/bitmap-2.png" srcset="/img/bitmap-2@2x.png 2x" alt="" role="presentation">
@@ -34,7 +34,7 @@
                 </div>
                 <div class="rewards__content">
                     <h1 class="title-1">
-                        Get BIP rewards <span>for</span> simple tasks
+                        Get BIP rewards <span class="title-1__span">for simple tasks</span>
                     </h1>
                     <div class="rewards__content-btn">
                         <a href="https://t.me/MinterContestBot?start=site" target="_blank" rel="noopener">
@@ -56,7 +56,7 @@
             </div>
         </section>
         <footer class="footer">
-            <div class="container">
+            <div class="container-footer">
                 <div class="rewards__links">
                     <a class="rewards__link-item rewards__links-terms" href="https://minter.org/legal/privacy.pdf">Privacy policy</a>
                     <a class="rewards__link-item rewards__links-about" href="https://minter.org" target="_blank">About Minter</a>
